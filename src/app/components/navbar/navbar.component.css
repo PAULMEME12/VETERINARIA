@@ -1,0 +1,26 @@
+button{
+    color:#43B2B5;
+    font-family: 'Montserrat Bold';
+    font-size: 25px;
+    font-weight: 900;
+}
+.btn-color:hover{
+    background-color: #92D0D2;
+    color: #43B2B5;
+}
+.active{
+    background-color: #43B2B5;
+    color: white;
+}
+.active:hover{
+    background-color: #43B2B5;
+    color: white;    
+}
+.contenedor{
+    background-image: url('../../../assets/imagenes/Inicio-100.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
