@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: 'Montserrat Black';
+    src: url('../src/assets/fuentes/Montserrat-Black.ttf')format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../src/assets/fuentes/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Refsan';
+    src: url('../src/assets/fuentes/REFSAN.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2{
+    font-family: 'Montserrat-Black', fallback, sans-serif;
+}
+h3,h4 {
+  font-family: 'Montserrat Bold', fallback, sans-serif;
+}
+
+p, button {
+  font-family: 'Refsan', fallback, sans-serif;
+}
