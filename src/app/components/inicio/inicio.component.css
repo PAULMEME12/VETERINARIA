@@ -1,0 +1,51 @@
+.img-somos{
+    width: 300px;
+}
+.cont-bg-somos{
+    background-color: #e4b50c;
+    padding: 40px 20px;
+}
+.cont-somos{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.cont-text-somos{
+   display: flex; 
+   flex-direction: column;
+    align-items: center;
+    color:white;
+}
+.btn-contac{
+    color:#43b2b5;
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 700;
+    font-family: 'Refsan';
+    font-size: 1.2rem;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.3);
+}
+.text-p{
+    font-size: 20px;
+    text-align: center;
+}
+@media(max-width:1250px){
+    .cont-somos{
+        width: 100%;
+        
+    }
+}
+@media(max-width:480px){
+    .cont-somos{
+       max-width: 100%;
+       display: flex;
+       flex-direction: column; 
+       align-items: center;
+       justify-content: center; 
+    }  
+    .img-somos{
+        width: 150px;
+        margin-bottom: 15px;
+
+    }
+}
