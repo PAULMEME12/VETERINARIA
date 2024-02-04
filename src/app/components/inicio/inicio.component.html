@@ -59,7 +59,27 @@
         <h3 class="tienda-linea">TIENDA EN LÍNEA</h3>
         <h2 class="mejores prod">NUESTROS MEJORES PRODUCTOS</h2>
         <div class="card-container">
-            
+            <p-carousel [value]="products" [numVisible]="3" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                <ng-template let-producto pTemplate="item">
+                   <div class="product-item">
+                     <div class="product-item-content">
+                       <div class="p-mb-3">
+                        <img class="product-image" [src]="producto.image">
+                       </div>
+                       <div>
+                         <p class="product-name">
+                            {{producto.name}}
+                         </p>
+                         <div>
+                            <p class="elemento">
+                                {{"$"+ producto.price}}
+                            </p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                </ng-template>
+               </p-carousel>
         </div>
     </div>
  </div>   
