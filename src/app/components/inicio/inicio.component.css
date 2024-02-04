@@ -49,3 +49,51 @@
 
     }
 }
+/* servicios */
+.cont-bg-services{
+    background-color: #f4f4f4;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.subtitle{
+    color: #43b2b5;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+.service-icon{
+    width: 150px;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #92d0d2;
+    border-radius: 20px;
+    margin-top: 13px;
+    justify-content: space-between;
+}
+.cont-service{
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.pie-tarjeta{
+    background-color: #eca46b;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    
+}
+.pie-tarjeta p{
+    margin: 2px 0px;
+    font-weight: 700;
+}
